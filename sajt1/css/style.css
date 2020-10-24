@@ -1,0 +1,134 @@
+*{
+    margin-top: 0 ;
+    padding:0;
+}
+.heder .heder-drugi-deo li{
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+.heder .heder-drugi-deo li a:hover{
+    color:#d5a630;
+    text-decoration: none;
+}
+.heder h2{
+    padding-top: 23px;
+    text-transform: uppercase;
+    color:#d5a630;
+}
+.heder{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #18191b;
+    color:white;
+}
+.heder .heder-drugi-deo{
+    padding: 30px;
+}
+.hero-section .dizajn{
+    color:#d5a630;
+    margin-left: 20px;
+}
+.hero-section{
+    background-image: url("../slike/slika3.jpg");
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.hero-section h5 {
+    color:rgba(255,255,255,0.7);
+    margin-bottom: 30px;
+}
+.hero-section h2 {
+    color:white;
+    padding-bottom: 60px;
+
+}
+.hero-section a{
+    margin-left: 15px;
+    text-transform: uppercase;
+    background-color: #ffca36;
+    padding: 15px;
+    font-weight: bold;
+    color:black;
+    border: 1px solid #ffca36;
+}
+.hero-section a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color:#ffca36;
+}
+.nasServis h3{
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.nasServis{
+    background-color: #18191b;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 45px;
+}
+.nasServis h5{
+    text-align: center;
+    color:#ffca36;
+    position: relative;
+}
+.nasServis .cd:before{
+    content:"";
+    display: block;
+    width: 370px;
+    height: 0.3px;
+    background: white;
+    position: absolute;
+    left:330px;
+    top:58%;
+}
+.nasServis .cd:after{
+    content:"";
+    display: block;
+    width: 370px;
+    height: 0.3px;
+    background: white;
+    position: absolute;
+    right:330px;
+    top:58%;
+}
+.nasServis .komercijalniDizajn li  {
+    text-decoration: none;
+    display: inline-block;
+    /*uklanja "bullets*/
+    list-style-type: none;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.nasServis .tekst1{
+    text-align: -moz-center;
+}
+.nasServis .komercijalniDizajn .design{
+    color:#ffca36;
+    font-weight: bold;
+}
+.nasServis  .tekst1{
+    text-align: justify;
+    font-size: 14px;
+}
+.kraj{
+    text-align: center;
+    color :white;
+}
+.kraj h5{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 10px;
+}
+
+
